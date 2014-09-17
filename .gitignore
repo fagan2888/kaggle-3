@@ -52,3 +52,11 @@ docs/_build/
 
 # PyBuilder
 target/
+
+
+# matlab
+*.asv
+*.mat
+
+# notepad++
+*.bak
