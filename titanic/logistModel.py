@@ -1,13 +1,8 @@
-# coding:gbk
-
-print(__doc__)
-
+# coding:utf-8
 
 import numpy as np
 import matplotlib.pyplot as plt
 
 from sklearn.linear_model import LogisticRegression
-from sklearn import datasets
-from sklearn.preprocessing import StandardScaler
-
-digits = datasets.load_digits()
+from sklearn.ensemble import GradientBoostingClassifier, RandomForestClassifier
+from sklearn.preprocessing import StandardScaler, OneHotEncoder

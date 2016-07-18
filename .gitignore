@@ -60,3 +60,11 @@ target/
 
 # notepad++
 *.bak
+
+# data file
+*.csv
+*.pkl
+*.data
+
+# Ipython
+.ipynb_checkpoints/
